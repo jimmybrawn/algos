@@ -6,6 +6,15 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-function reverse(str) {}
+function reverse(str) {
+	let r = ""
+	//loop through word backwards (starting highest)
+	for(var i = str.length; i--;){
+		r = r + str[i]
+
+	}
+	return r
+	//creating new word (backwards)
+}
 
 module.exports = reverse;
